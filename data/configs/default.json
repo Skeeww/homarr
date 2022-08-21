@@ -2,11 +2,12 @@
   "name": "default",
   "services": [
     {
-      "name": "example",
-      "id": "09c45847-8afc-4c1a-9697-f03192de948a",
+      "id": "32db5e3c-32e7-44b9-ae5f-095d1596b79a",
       "type": "Other",
-      "icon": "https://c.tenor.com/o656qFKDzeUAAAAC/rick-astley-never-gonna-give-you-up.gif",
-      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      "category": "Music",
+      "name": "Navidrome",
+      "icon": "https://cdn.jsdelivr.net/gh/walkxhub/dashboard-icons/png/navidrome.png",
+      "url": "https://music.noan.dev"
     }
   ],
   "settings": {
@@ -14,6 +15,52 @@
   },
   "modules": {
     "Search Bar": {
+      "enabled": true
+    },
+    "Calendar": {
+      "enabled": true
+    },
+    "Torrent": {
+      "enabled": true
+    },
+    "Dash.": {
+      "enabled": true,
+      "options": {
+        "cpuMultiView": {
+          "value": true
+        },
+        "storageMultiView": {
+          "value": true
+        },
+        "useCompactView": {
+          "value": true
+        },
+        "url": {
+          "value": ""
+        }
+      }
+    },
+    "Download Speed": {
+      "enabled": true
+    },
+    "Weather": {
+      "enabled": true,
+      "options": {
+        "location": {
+          "value": "Perros-Guirec"
+        }
+      }
+    },
+    "Date": {
+      "enabled": true
+    },
+    "Ping Services": {
+      "enabled": true
+    },
+    "Docker": {
+      "enabled": true
+    },
+    "Overseerr": {
       "enabled": true
     }
   }

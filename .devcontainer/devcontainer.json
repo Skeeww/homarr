@@ -1,0 +1,14 @@
+{
+  "image": "node:16-alpine",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "postCreateCommand": "yarn",
+  "forwardPorts": [3000]
+}
